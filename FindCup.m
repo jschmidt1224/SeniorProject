@@ -36,7 +36,7 @@ Height = Loc(2) - 100
 for y = Loc(2):-1:1
     y
     if (sPlane(y, Loc(1)) == 0)
-        Height = y
+        Height = y + 60;
         break;
     end
 end
